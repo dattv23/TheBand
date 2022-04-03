@@ -167,7 +167,10 @@ html {
     position: relative;
     margin-top: 46.5px;
     padding-top: 50%;
-    background: url('/assets/image/slider1.jpg') top center / cover no-repeat;
+    background-image: url('/assets/image/slider1.jpg');
+    position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #slider .text-content {
