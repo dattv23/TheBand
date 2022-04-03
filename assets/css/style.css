@@ -166,11 +166,16 @@ html {
 #slider {
     position: relative;
     margin-top: 46.5px;
-    padding-top: 50%;
+/*     padding-top: 50%;
     background-image: url('/assets/image/slider1.jpg');
     position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+}
+
+.slider-img img {
+    width: 100%;
+    height: 50%;
 }
 
 #slider .text-content {
